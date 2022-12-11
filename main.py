@@ -22,7 +22,7 @@ class Probability:
             print(f"Expected type 'int', got {type(sum_)} instead in sum_")
             raise TypeError
         elif not isinstance(self.dice_amount, int):
-            print(f"Expected type 'int', got {type(dice_amount)} instead in sum_")
+            print(f"Expected type 'int', got {type(dice_amount)} instead in dice_amount")
             raise TypeError
 
     def rolldice_sum_probability(self) -> float:
